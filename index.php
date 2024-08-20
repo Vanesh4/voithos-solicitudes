@@ -1,7 +1,7 @@
-<h1>hola</h1>
+<h1>plantilla</h1>
 <?php
 require_once("config/config.php");
 //llamar al controlador
-require_once("app/controller/index.php");
+require_once("app/controller/comiteController.php");
 
-modelController::index();
+comiteController::index();

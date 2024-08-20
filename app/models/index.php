@@ -4,10 +4,10 @@ class Model{
     private $db;
 
     public function __construct() {
-        $host = 'localhost:3307';
-        $dbname = 'phpvoithos'; // Asegúrate de que este sea el nombre correcto de tu base de datos
-        $username = 'root'; // Cambia esto por tu usuario MySQL si es diferente
-        $password = ''; // Cambia esto por tu contraseña MySQL si es diferente
+        $host = '127.0.0.1:3306';
+        $dbname = 'phpvoithos';
+        $username = 'vanesha';
+        $password = '1234'; 
 
         try {
             $this->db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
