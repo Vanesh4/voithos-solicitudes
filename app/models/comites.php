@@ -1,6 +1,6 @@
 <?php
-
-require_once("app/models/conexiondb.php");
+require_once __DIR__ . '/../models/conexiondb.php';
+//require_once("app/models/conexiondb.php");
 
 class Comites{
     protected $db;
@@ -19,7 +19,7 @@ class Comites{
         return $data;
     }
 
-    public function ejemplo() {
+    public function portafolio() {
         // $query = "select * from comite";
         // $ans = $this->db->query($query);
         // return $ans;
